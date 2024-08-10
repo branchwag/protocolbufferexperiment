@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option go_package = "./model";
+
 message Book {
     int32 Id = 1;
     string Title = 2;
@@ -15,6 +17,6 @@ enum Category {
 }
 
 message Author {
-    int 32 Id = 1
+    int32 Id = 1;
     string Name = 2;
 }
